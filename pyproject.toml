@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bot-hw2-web"
+version = "0.1.0"
+description = ""
+authors = ["NikitaDobry27 <bazhenov.nikita27@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bot_hw2_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
