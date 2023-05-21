@@ -1,7 +1,7 @@
 import re
 import datetime
 from collections import UserDict
-from .abstract_classes import BaseRecordStorage
+from abstract_classes import BaseRecordStorage
 
 
 class _HashTag:

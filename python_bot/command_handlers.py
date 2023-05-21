@@ -1,4 +1,5 @@
-from python_bot import AddressBook, sort_files
+from addressbook import AddressBook
+from file_sorter import sort_files
 
 
 def input_error(func):
@@ -54,7 +55,7 @@ birthdays 'number of days':              : shows contacts who have birthday in s
     return message
 
 
-# @input_error
+@input_error
 def add_handler(addressbook: AddressBook, *args) -> str:
     if args[0] == "record":
         addressbook.add_record(args[1])

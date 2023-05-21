@@ -1,4 +1,4 @@
-from python_bot import function, AddressBook
+from command_handlers import AddressBook, function
 
 
 def command_parser(addressbook: AddressBook, input_string) -> str:

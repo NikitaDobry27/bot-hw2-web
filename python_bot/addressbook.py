@@ -2,8 +2,8 @@ import re
 import pickle
 from datetime import date
 from collections import UserDict
-from python_bot import NoteBook, UserInterface
-from .abstract_classes import BaseRecordStorage, _Field
+from notebook import NoteBook, UserInterface
+from abstract_classes import BaseRecordStorage, _Field
 
 
 class _Name(_Field):
